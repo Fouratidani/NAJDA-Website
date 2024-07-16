@@ -1,0 +1,85 @@
+
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navbar .nav-link {
+      margin: 0.5rem 0;
+    }
+  
+    .navbar .navbar-brand {
+      margin-bottom: 1rem;
+    }
+  
+    .container-fluid {
+      padding: 0 1rem;
+    }
+  
+    .d-flex {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  
+    .card img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .modal-dialog {
+      max-width: 90%;
+      margin: 1.75rem auto;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    .btn {
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+  
+    .row {
+      flex-direction: column;
+    }
+  
+    .col {
+      width: 100%;
+    }
+  
+    .stats-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .stats-container .chart {
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 1rem;
+    }
+  
+    .features-section {
+      padding: 1rem;
+    }
+  
+    .features-section .card {
+      margin-bottom: 1rem;
+    }
+  
+    .features-section .book {
+      width: 100%;
+    }
+  
+    .features-section .book p {
+      font-size: 1rem;
+    }
+  }
+  

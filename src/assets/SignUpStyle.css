@@ -1,0 +1,37 @@
+.login-page {
+  background-color: #4e54c8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center the card horizontally */
+}
+
+.card-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%; /* Ensure the card fills the container width */
+  max-width: 400px; /* Adjust the max-width as needed */
+  margin: 20px;
+}
+
+.form {
+  width: 100%;
+}
+
+.form .MuiGrid-item {
+  margin-bottom: 10px; /* Adjust spacing between input fields */
+}
+
+.submit-button {
+  margin-top: 20px; /* Adjust spacing above the button */
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    padding: 10px;
+    margin: 0;
+  }
+}
