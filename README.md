@@ -15,6 +15,5 @@ npm install
 npm run dev
 npm run build
 
-## Design and UI
-
+Design and UI
 This project leverages the MUI library for creating a polished and responsive user interface.
